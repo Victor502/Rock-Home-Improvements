@@ -1,0 +1,352 @@
+/********************* General *******************/
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    color: green;
+}
+
+
+/** Fonts**/
+
+#logo {
+    font-family: 'Sahitya', serif;
+    height: 150px;
+}
+
+Img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+#firstrow figure,
+#secondrow figure,
+#doors,
+#opening {
+    border: 5px solid green;
+    margin-bottom: 6%;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#doors {
+    display: inline-block;
+}
+
+#doors img {
+    max-width: 45%;
+    max-height: auto;
+}
+
+h1 {
+    font-size: 3.0em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+
+/*** Main header ***/
+
+#logo {
+    max-width: 100%;
+    height: 140px;
+    background-image: url(img/CI_T5_ideahouseLM_1200x460_1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 10px;
+}
+
+
+/******************** Colors *********************/
+
+
+/*** Nav ***/
+
+nav {
+    opacity: 0.85;
+}
+
+nav li {
+    max-width: 20%;
+}
+
+nav a,
+nav a:visited {
+    color: green;
+}
+
+nav a.selected,
+nav a:hover {
+    color: limegreen;
+}
+
+.fixed {
+    position: fixed;
+    min-width: 100%;
+}
+
+
+/*********** drop down Nav ******/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #9FD725;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown,
+#doors {
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+/************* Wrapper ********************/
+
+#wrapper h1,
+#wrapper h2 {
+    text-align: center;
+}
+
+
+/*********** contact page *************/
+
+#contact-page {
+    align-self: center;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 25px;
+    padding: 0 5% 5%;
+}
+
+#contact-page:hover {}
+
+
+/************* examples ********************/
+
+#examples {
+    font-size: 1.25em;
+}
+
+#examples a {
+    display: block;
+    margin: 2.5%;
+    padding: 2%;
+    line-height: 1em;
+}
+
+#examples a:hover {
+    background-color: lightgreen;
+}
+
+#mobile-home {
+    display: flex;
+    flex-direction: column;
+}
+
+#mobile-home figure {
+    border: 5px solid green;
+    margin-bottom: 6%;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#mobile-home figure:hover {
+    box-shadow: 1px 1px 1px #888888;
+    transition: box-shadow .1s ease-out;
+}
+
+
+/************* examples desk-top ********************/
+
+#examples-desktop span {
+    display: inline-block;
+    margin-left: 5%;
+    max-width: 45%;
+    position: top;
+}
+
+#examples-desktop p {
+    display: block;
+    margin: 0 5%;
+}
+
+#examples-desktop img {
+    max-width: 45%;
+}
+
+#examples-desktop a {
+    color: green;
+}
+
+#line {
+    min-width: 100%;
+    height: 50px;
+    margin: 0 5%;
+}
+
+
+/************ thumbtack *******************/
+
+
+/************ Awards *******************/
+
+#awards {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    clear: right;
+}
+
+#awards img {
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+}
+
+
+/************ Contact *******************/
+
+#contact {
+    background-color: lightgray;
+    text-align: center;
+    color: green;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+#contact {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#contact h2 {
+    line-height: .5em;
+}
+
+#contact a {
+    color: green;
+}
+
+#contact a:hover {
+    color: darkgreen;
+}
+
+
+/************ Footer *************/
+
+footer {
+    background-color: black;
+    color: green;
+    opacity: 0.80;
+    height: 80px;
+    border-top: solid 10px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 30px;
+    margin: 15px 0;
+    padding-right: 10px;
+    float: right;
+}
+
+
+/************* Opening ********************/
+
+#opening {
+    max-width: 100;
+    margin: 0 5%;
+    border-radius: 13px;
+}
+
+#opening article {
+    padding: 2%;
+}
+
+#grid img {
+    max-width: 15%;
+}
+
+
+/***siding colors expand**/
+
+#grid img:hover {
+    transform: scale(1.5);
+}
+
+
+/*********** flexbox  **********/

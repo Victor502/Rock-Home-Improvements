@@ -1,0 +1,169 @@
+@media screen and (min-width: 620px) {
+    #firstrow {
+        max-width: 45%;
+        float: left;
+        margin-bottom: 5%;
+    }
+    #secondrow {
+        max-width: 45%;
+        float: right;
+        margin-bottom: 5%;
+    }
+    #contact {
+        background: none;
+    }
+    #mobile {
+        display: none;
+    }
+    #wrapper section img {
+        padding: 10px;
+    }
+    #examples {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    /*********************************************************/
+    /*** Mobile Nav ***/
+    .fixed {
+        display: none;
+    }
+    #examples-desktop {
+        display: none;
+    }
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .mobile-drop-down {}
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    #mobile {
+        float: left;
+        background-color: #3e8e41;
+        margin-top: -5px;
+        position: fixed;
+    }
+    #contact {
+        max-height: 315px;
+    }
+    #contact img {
+        max-height: 60px;
+        max-width: 60px;
+        margin: 5px 20px 0;
+    }
+    #contact h2 {
+        font-size: 1.5em;
+    }
+    #contact h1 {
+        font-size: 1.45em;
+    }
+}
+
+
+/*********************************************************/
+
+@media screen and (max-width: 800px) {
+    #contact {
+        text-align: center;
+    }
+    #opening {
+        padding: 0 10%;
+        padding-bottom: 15px;
+        font-size: .75em;
+        margin-bottom: 5%;
+    }
+    #main-page-pic {
+        min-width: 70%
+    }
+    #main-page-text {
+        font-size: .75em;
+        text-align: justify;
+        min-width: 90%;
+    }
+    #firstrow,
+    #secondrow {
+        max-width: 70%;
+        margin: 0 15%;
+    }
+    #opening {
+        padding: 0;
+        padding-bottom: 5%;
+    }
+}
+
+
+/*********************************************************/
+
+@media screen and (min-width: 800px) {
+    #opening {
+        padding: 0 10%;
+        padding-bottom: 15px;
+        border: solid 3px black;
+    }
+    #main-page-pic {
+        margin-bottom: 3%;
+    }
+    #main-page-text {
+        max-width: 65%;
+        text-align: justify;
+    }
+    .desktop {
+        display: none;
+    }
+    #siding img {
+        max-height: 300px
+    }
+    #wrapper {
+        max-width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #firstrow figure,
+    #secondrow figure {
+        margin-bottom: 7%;
+    }
+    .roofs {
+        flex: 1 50%;
+        margin: 5px;
+    }
+    .roofintro {
+        width: 75%;
+        margin: auto;
+    }
+    .roofs figcaption {
+        margin-bottom: 10px;
+    }
+}
